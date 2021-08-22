@@ -1,7 +1,9 @@
 #include <iostream>
 #include <vector>
 #include <string>
+
 using namespace std;
+
 string runLengthEncoding(string str);
 string runLengthEncoding(string str) {
 	// Write your code here.
@@ -32,7 +34,7 @@ string runLengthEncoding(string str) {
 
 int main()
 {
-	string myStr = "AAAAAAAAAAAAABBCCCCDD";
+	string myStr = "AAAAAAAAAAAAABBCCCCDDD";
 	cout << "Result:"<<runLengthEncoding(myStr);
 	getchar();
 	return 0;
